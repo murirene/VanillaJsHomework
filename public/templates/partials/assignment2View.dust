@@ -1,0 +1,29 @@
+<div class="container view hide" id="assignment2View">
+    <h1 class="header center orange-text entryForm">{@pre type="content" key="welcome"/}</h1>
+    <div class="row center entryForm">
+        <h5 class="header col s12 light">{@pre type="content" key="instructions"/}</h5>
+    </div>
+    <div class="row entryForm">
+        <form class="col s12">
+            <div class="row center entryForm">
+                <a href="#" id="dom-api-button" class="btn-large waves-effect waves-light orange" state="ready">Convert
+                    Paragraph</a>
+            </div>
+        </form>
+    </div>
+    <div class="row" id="editableContent">
+        <div contenteditable="">
+            <p>(contenteditable is empty) Toto, I've got a feeling we're not in Kansas anymore.</p>
+        </div>
+        <div contenteditable="true">
+            <p>(contenteditable is true) You don't understand! I coulda had class. I coulda been a contender. I
+                could've been somebody, instead of a bum, which is what I am.</p>
+        </div>
+        <div contenteditable="false">
+            <p>(contenteditable is false) I'm going to make him an offer he can't refuse.</p>
+        </div>
+        <div>
+            <p>(contenteditable is not present) Frankly, my dear, I don't give a damn.</p>
+        </div>
+    </div>
+</div>

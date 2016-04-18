@@ -1,0 +1,24 @@
+<div class="container view" id="assignment1View">
+    <h1 class="header center orange-text entryForm">{@pre type="content" key="welcome"/}</h1>
+    <div class="row center entryForm">
+        <h5 class="header col s12 light">{@pre type="content" key="instructions"/}</h5>
+    </div>
+    <div class="row entryForm">
+        <form class="col s12">
+            <div class="row">
+                <div class="input-field col s4 offset-s4">
+                    <input placeholder={@pre type="content" key="NumberSet"/} id="numberSet"
+                    type="text"
+                    class="validate"/}>
+                </div>
+            </div>
+            <div class="row center entryForm">
+                <a href="#" id="prime-button" class="btn-large waves-effect waves-light orange">{@pre type="content"
+                    key="primeButton"/}</a>
+            </div>
+            <div class="row center entryForm">
+                <h2 id="prime-result"></h2>
+            </div>
+        </form>
+    </div>
+</div>

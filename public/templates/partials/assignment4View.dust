@@ -1,0 +1,60 @@
+<div class="container view hide" id="assignment4View">
+    <h1 class="header center orange-text entryForm">{@pre type="content" key="welcome"/}</h1>
+    <div class="row center entryForm">
+        <h5 class="header col s12 light">{@pre type="content" key="instructions"/}</h5>
+    </div>
+    <div class="row entryForm">
+        <form class="col s12">
+            <div class="row">
+                <div class="input-field col s4 offset-s2">
+                    <input placeholder={@pre type="content" key="sportsCar"/} id="sportsCar"
+                    type="text"
+                    class="vehicle validate" suffix={@pre type="content" key="sportsCarSuffix"/}>
+                </div>
+                <div class="input-field col s4">
+                    <input placeholder={@pre type="content" key="familyCar"/} id="familyCar"
+                    type="text"
+                    class="vehicle validate" suffix={@pre type="content" key="familyCarSuffix"/}>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s4 offset-s2">
+                    <input placeholder={@pre type="content" key="truck"/} id="truck"
+                    type="text"
+                    class="vehicle validate" suffix={@pre type="content" key="truckSuffix"/}>
+                </div>
+                <div class="input-field col s4">
+                    <input placeholder={@pre type="content" key="miniVan"/} id="miniVan"
+                    type="text"
+                    class="vehicle validate" suffix={@pre type="content" key="miniVanSuffix"/}>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s4 offset-s2">
+                    <input placeholder={@pre type="content" key="cargoVan"/} id="cargoVan"
+                    type="text"
+                    class="vehicle validate" suffix={@pre type="content" key="cargoVanSuffix"/}>
+                </div>
+                <div class="input-field col s4">
+                    <input placeholder={@pre type="content" key="cargo"/} id="cargo"
+                    type="text"
+                    class="load validate" suffix={@pre type="content" key="cargoSuffix"/}>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="row center entryForm">
+        <a href="#" id="cargo-button" class="btn-large waves-effect waves-light orange">Create Cargo Table</a>
+    </div>
+
+    <div class="row resultsPanel hide">
+        <a href="#" id="new-cargo-button" class="btn-large waves-effect waves-light orange">Return</a>
+    </div>
+
+    <div class="row resultsPanel hide">
+        <div id="cargoContainer">
+            No Info here
+        </div>
+    </div>
+</div>
+

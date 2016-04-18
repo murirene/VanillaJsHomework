@@ -1,0 +1,23 @@
+<table class="striped centered responsive-table col s4 offset-s4">
+    <thead>
+        <tr>
+            <th>Sports Car(s) {cargoItems.cargoOrder.SportsCar} Family Car(s) {cargoItems.cargoOrder.FamilyCar}
+                Truck(s) {cargoItems.cargoOrder.Truck} Mini-Van(s) {cargoItems.cargoOrder.MiniVan} Cargo-Van(s)
+                {cargoItems.cargoOrder.CargoVan} Cargo {cargoItems.cargoOrder.Cargo} lbs
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        {#cargoItems.moves}
+        {?isleftover}
+        <tr>
+            <td>We have {leftover} lbs of cargo left</td>
+        </tr>
+        {:else}
+        <tr>
+            <td>A {type} with {weight}</td>
+        </tr>
+        {/isleftover}
+        {/cargoItems.moves}
+    </tbody>
+</table>

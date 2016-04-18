@@ -1,0 +1,29 @@
+<div class="container view hide" id="assignment3View">
+<h1 class="header center orange-text entryForm">{@pre type="content" key="welcome"/}</h1>
+<div class="row center entryForm">
+    <h5 class="header col s12 light">{@pre type="content" key="instructions"/}</h5>
+</div>
+<div class="row entryForm">
+    <form class="col s12">
+        <div class="row">
+            <div class="input-field col s4 offset-s2">
+                <input placeholder={@pre type="content" key="findPairs"/} id="findPairs"
+                type="text"
+                class="validate"/}>
+            </div>
+            <div class="input-field col s4">
+                <input placeholder={@pre type="content" key="sum"/} id="sum"
+                type="text"
+                class="validate"/}>
+            </div>
+        </div>
+        <div class="row center entryForm">
+            <a href="#" id="sum-pairs-button" class="btn-large waves-effect waves-light orange">{@pre type="content"
+                key="sumPairsButton"/}</a>
+        </div>
+        <div class="row center entryForm">
+            <h2 id="sum-pairs-result"></h2>
+        </div>
+    </form>
+</div>
+</div>

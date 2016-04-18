@@ -1,0 +1,11 @@
+{>"layouts/master" /}
+{<body}
+    {>"partials/navigationalBar" /}
+<div class="section no-pad-bot" id="index-banner">
+    {>"partials/assignment1View" /}
+    {>"partials/assignment2View" /}
+    {>"partials/assignment3View" /}
+    {>"partials/assignment4View" /}
+</div>
+   {! {>"partials/footer" /} !}
+{/body}

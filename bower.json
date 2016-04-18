@@ -1,0 +1,21 @@
+{
+  "name": "AmortizationTableCalculator",
+  "main": "index.js",
+  "version": "0.0.0",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "dustjs-linkedin-helpers": "~1.2.0",
+    "dustjs-linkedin": "~2.3.0",
+    "materialize": "~0.97.0",
+    "requirejs": "^2.1.11",
+    "mdi": "~1.1.34"
+  }
+}
