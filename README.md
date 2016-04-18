@@ -30,6 +30,7 @@ I used mainly Vanilla Javascript driven by JQuery for the Client. There are Ajax
 /config - Server Configuration files. These are wired by Kraken.js.
 /controllers/index.js - Node.js Routes for Serving the Application and handling the Ajax request for calculating the cargo of assignment 4.
 /locales - The Locale text file are in this directory. The Dust.js Templates will be compiled with the constants for this file. If I used a different language, then the text for each locale would be kept here. It decouples the content from the page.
+These mirroe the /templates directory.
 /public/components - bower dependencies 
 /js/controllers - Each assignment has it's own controller. The core logic for each assignment are in the controllers. 
 	They share the helper files for common functionality like accessing the DOM or registering events.
