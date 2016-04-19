@@ -31,9 +31,6 @@ http://localhost:8000
 Inside of the directory run the following command to install the dependencies:
 npm install
 
-*Build
-npm build
-
 *Start Application (open the browser to http://localhost:3000)
 npm start
 
@@ -41,7 +38,7 @@ npm start
 1. Download the Selenium Standalone Server (selenium-server-standalone-2.53.0.jar) and place it in test/bin
 http://www.seleniumhq.org/download/
 2. run "npm start" on one command window
-3. run "npm run automation" on another window.
+3. run "npm test" on another window.
 
 Approach:
 I used mainly Vanilla Javascript driven by JQuery for the Client. There are Ajax calls that are made to Routes on the Node.js express server. I modularized the clientside to isolate the DOM, Events, and business logic. The page is rendered using Web Templating Dust.js engine. The scaffolding of the project was done with Kraken.js.
@@ -75,6 +72,7 @@ more maintainable and easier to read.
 /tasks - Grunt Tasks
 /server.js - Node Server
 
+test/functional/index.js - Functional Nightwatch Test
 
 ********************
 *Technologies      *
