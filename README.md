@@ -24,6 +24,25 @@ Example1:
 INPUT: SportsCar: 1 FamilyCar:3 Truck: 4 MiniVan: 2 CargoVan: 1 Cargo: 7356
 OUTPUT: allocating 7356 lbs of cargo a SportsCar with 100 lbs a FamilyCar with 300 lbs a FamilyCar with 300 lbs a FamilyCar with 300 lbs a Truck with 1500 lbs  Truck with 1500 lbs a Truck with 1500 lbs a Truck with 1500 lbs a MiniVan with 200 lbs a MiniVan with 156 lbs a CargoVan with 0 lbs we have 0 lbs of cargo left over.
 
+*URL:
+http://localhost:8000
+
+*Dependency Installation
+Inside of the directory run the following command to install the dependencies:
+npm install
+
+*Build
+npm build
+
+*Start Application (open the browser to http://localhost:3000)
+npm start
+
+*Functional Test (It will expect the Mozilla browser, unless Chrome is configured in nightwatch.json)
+1. Download the Selenium Standalone Server (selenium-server-standalone-2.53.0.jar) and place it in test/bin
+http://www.seleniumhq.org/download/
+2. run "npm start" on one command window
+3. run "npm run automation" on another window.
+
 Approach:
 I used mainly Vanilla Javascript driven by JQuery for the Client. There are Ajax calls that are made to Routes on the Node.js express server. I modularized the clientside to isolate the DOM, Events, and business logic. The page is rendered using Web Templating Dust.js engine. The scaffolding of the project was done with Kraken.js.
 

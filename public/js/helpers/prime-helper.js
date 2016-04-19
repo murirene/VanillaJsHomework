@@ -20,7 +20,7 @@ function getPrimes(n) {
     }
     var result = "";
     for(var i = 0; i < primes.length; i++) {
-        result += (i > 0? ", " + primes[i]: primes[i] + ", ");
+        result += (i > 0? ", " + primes[i]: primes[i]);
     }
     return result;
 }
